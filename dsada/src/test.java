@@ -25,13 +25,15 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 
+// test a file
+
 public class test extends JPanel {
 	
 	public int cproblem=1;
 	
 	//public void paint(Graphics  g)
 	//{
-		//Image image = Toolkit.getDefaultToolkit().getImage("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\"+cproblem+".png");
+		//Image image = Toolkit.getDefaultToolkit().getImage("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\"+cproblem+".png");
 		//g.setColor(Color.black);
 		//g.drawImage(image, 100, 100, null);
 	//}
@@ -45,7 +47,7 @@ public class test extends JPanel {
 	
 	JPanel panel = new JPanel();
 	
-	ImageIcon asd = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\1.png");
+	ImageIcon asd = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\1.png");
 	JLabel slide_1= new JLabel(asd);
 	JLabel slide_2= new JLabel("New label");
 
@@ -116,9 +118,9 @@ public class test extends JPanel {
 	       String answer;  //initializes answer string  
 	       int correct=0, number;
 	       boolean time = true;//initializes scoring variables 
-	       basic_practice[] Vowel = new basic_practice[19];  //initializes ÀÚÀ½  array  
-	       basic_practice[] Consonant  = new basic_practice[21];  //initializes ¸ğÀ½ array  
-	       basic_practice[] Consonant_Vowel  = new basic_practice[40];  //initializes ¸ğÀ½ ÀÚÀ½ array  
+	       basic_practice[] Vowel = new basic_practice[19];  //initializes ììŒ  array  
+	       basic_practice[] Consonant  = new basic_practice[21];  //initializes ëª¨ìŒ array  
+	       basic_practice[] Consonant_Vowel  = new basic_practice[40];  //initializes ëª¨ìŒ ììŒ array  
 	       List<basic_practice> VowelList = Arrays.asList(Vowel);  //sets the array as a list 
 	       List<basic_practice> ConsonantList = Arrays.asList(Consonant);    
 	       List<basic_practice> Consonant_VowelList = Arrays.asList(Consonant_Vowel);  //sets the array as a list 
@@ -140,138 +142,138 @@ public class test extends JPanel {
 	       public void VowelList() //start of bankList 
 	       { 
 	          for(int i = 0; i < 19; i++){
-	             Vowel[i] = new basic_practice((test)panel);//¿ÀºêÁ§Æ® 10°³ »ı¼º
+	             Vowel[i] = new basic_practice((test)panel);//ì˜¤ë¸Œì íŠ¸ 10ê°œ ìƒì„±
 	          }
-	           Vowel[0].question = "¤¡";  //Initialize object variables (±×¸²À» ¾²°Å³ª ±Û½Ã)
-	           Vowel[0].answer = "2";  //Initialize object variables (´äÀ» ¹Ş´Â °ÍÀº ¸³¸ğ¼ÇÀ¸ ¤Ó°ªÀ¸·Î )
+	           Vowel[0].question = "ã„±";  //Initialize object variables (ê·¸ë¦¼ì„ ì“°ê±°ë‚˜ ê¸€ì‹œ)
+	           Vowel[0].answer = "2";  //Initialize object variables (ë‹µì„ ë°›ëŠ” ê²ƒì€ ë¦½ëª¨ì…˜ìœ¼ ã…£ê°’ìœ¼ë¡œ )
 	            
-	           Vowel[1].question = "¤¤";  //Initialize object variables 
-	           Vowel[1].answer = "¤¤";  //Initialize object variables     
+	           Vowel[1].question = "ã„´";  //Initialize object variables 
+	           Vowel[1].answer = "ã„´";  //Initialize object variables     
 	            
-	           Vowel[2].question = "¤§";  //Initialize object variables 
-	           Vowel[2].answer = "¤§";  //Initialize object variables     
+	           Vowel[2].question = "ã„·";  //Initialize object variables 
+	           Vowel[2].answer = "ã„·";  //Initialize object variables     
 	            
-	           Vowel[3].question = "¤©";  //Initialize object variables 
-	           Vowel[3].answer = "¤©";  //Initialize object variables     
+	           Vowel[3].question = "ã„¹";  //Initialize object variables 
+	           Vowel[3].answer = "ã„¹";  //Initialize object variables     
 	            
-	           Vowel[4].question = "¤±";  //Initialize object variables 
-	           Vowel[4].answer = "¤±";  //Initialize object variables     
+	           Vowel[4].question = "ã…";  //Initialize object variables 
+	           Vowel[4].answer = "ã…";  //Initialize object variables     
 	            
-	           Vowel[5].question = "¤²";  //Initialize object variables 
-	           Vowel[5].answer = "¤²";  //Initialize object variables 
+	           Vowel[5].question = "ã…‚";  //Initialize object variables 
+	           Vowel[5].answer = "ã…‚";  //Initialize object variables 
 	            
-	           Vowel[6].question = "¤µ";  //Initialize object variables 
-	           Vowel[6].answer = "¤µ";  //Initialize object variables     
+	           Vowel[6].question = "ã……";  //Initialize object variables 
+	           Vowel[6].answer = "ã……";  //Initialize object variables     
 	            
-	           Vowel[7].question = "¤·";  //Initialize object variables 
-	           Vowel[7].answer = "¤·";  //Initialize object variables     
+	           Vowel[7].question = "ã…‡";  //Initialize object variables 
+	           Vowel[7].answer = "ã…‡";  //Initialize object variables     
 	            
-	           Vowel[8].question = "¤¸";  //Initialize object variables 
-	           Vowel[8].answer = "¤¸";  //Initialize object variables     
+	           Vowel[8].question = "ã…ˆ";  //Initialize object variables 
+	           Vowel[8].answer = "ã…ˆ";  //Initialize object variables     
 	            
-	           Vowel[9].question = "¤º";  //Initialize object variables 
-	           Vowel[9].answer = "¤º";  //Initialize object variables    
+	           Vowel[9].question = "ã…Š";  //Initialize object variables 
+	           Vowel[9].answer = "ã…Š";  //Initialize object variables    
 	           
-	           Vowel[10].question = "¤»";  //Initialize object variables 
-	           Vowel[10].answer = "¤»";  //Initialize object variables    Vowel[9].question = "Â÷";  //Initialize object variables 
+	           Vowel[10].question = "ã…‹";  //Initialize object variables 
+	           Vowel[10].answer = "ã…‹";  //Initialize object variables    Vowel[9].question = "ì°¨";  //Initialize object variables 
 	           
-	           Vowel[11].question = "¤¼";  //Initialize object variables    Vowel[9].question = "Â÷";  //Initialize object variables 
-	           Vowel[11].answer = "¤¼";  //Initialize object variables    Vowel[9].question = "Â÷";  //Initialize object variables 
+	           Vowel[11].question = "ã…Œ";  //Initialize object variables    Vowel[9].question = "ì°¨";  //Initialize object variables 
+	           Vowel[11].answer = "ã…Œ";  //Initialize object variables    Vowel[9].question = "ì°¨";  //Initialize object variables 
 	           
-	           Vowel[12].question = "¤½";  //Initialize object variables
-	           Vowel[12].answer = "¤½";  //Initialize object variables 
+	           Vowel[12].question = "ã…";  //Initialize object variables
+	           Vowel[12].answer = "ã…";  //Initialize object variables 
 	           
-	           Vowel[13].question = "¤¾";  //Initialize object variables 
-	           Vowel[13].answer = "¤¾";  //Initialize object variables   
+	           Vowel[13].question = "ã…";  //Initialize object variables 
+	           Vowel[13].answer = "ã…";  //Initialize object variables   
 	           
-	           Vowel[14].question = "¤¢";  //Initialize object variables 
-	           Vowel[14].answer = "¤¢";  //Initialize object variables   
+	           Vowel[14].question = "ã„²";  //Initialize object variables 
+	           Vowel[14].answer = "ã„²";  //Initialize object variables   
 	           
-	           Vowel[15].question = "¤¨";  //Initialize object variables 
-	           Vowel[15].answer = "¤¨";  //Initialize object variables   
+	           Vowel[15].question = "ã„¸";  //Initialize object variables 
+	           Vowel[15].answer = "ã„¸";  //Initialize object variables   
 	           
-	           Vowel[16].question = "¤³";  //Initialize object variables 
-	           Vowel[16].answer = "¤³";  //Initialize object variables   
+	           Vowel[16].question = "ã…ƒ";  //Initialize object variables 
+	           Vowel[16].answer = "ã…ƒ";  //Initialize object variables   
 	           
-	           Vowel[17].question = "¤¶";  //Initialize object variables 
-	           Vowel[17].answer = "¤¶";  //Initialize object variables 
+	           Vowel[17].question = "ã…†";  //Initialize object variables 
+	           Vowel[17].answer = "ã…†";  //Initialize object variables 
 	           
-	           Vowel[18].question = "¤¹";  //Initialize object variables 
-	           Vowel[18].answer = "¤¹";  //Initialize object variables      
+	           Vowel[18].question = "ã…‰";  //Initialize object variables 
+	           Vowel[18].answer = "ã…‰";  //Initialize object variables      
 	       }  //end of bankList 
 
 	       public void ConsonantList(){
 	          
 	          for(int i = 0; i < 21; i++){
-	             Consonant[i] = new basic_practice((test)panel);//¿ÀºêÁ§Æ® 10°³ »ı¼º
+	             Consonant[i] = new basic_practice((test)panel);//ì˜¤ë¸Œì íŠ¸ 10ê°œ ìƒì„±
 	          }
-	           Consonant[0].question = "¤¿";  //Initialize object variables (±×¸²À» ¾²°Å³ª ±Û½Ã)
-	           Consonant[0].answer = "¤¿";  //Initialize object variables (´äÀ» ¹Ş´Â °ÍÀº ¸³¸ğ¼ÇÀ¸ ¤Ó°ªÀ¸·Î )
+	           Consonant[0].question = "ã…";  //Initialize object variables (ê·¸ë¦¼ì„ ì“°ê±°ë‚˜ ê¸€ì‹œ)
+	           Consonant[0].answer = "ã…";  //Initialize object variables (ë‹µì„ ë°›ëŠ” ê²ƒì€ ë¦½ëª¨ì…˜ìœ¼ ã…£ê°’ìœ¼ë¡œ )
 	            
-	           Consonant[1].question = "¤Á";  //Initialize object variables 
-	           Consonant[1].answer = "¤Á";  //Initialize object variables     
+	           Consonant[1].question = "ã…‘";  //Initialize object variables 
+	           Consonant[1].answer = "ã…‘";  //Initialize object variables     
 	            
-	           Consonant[2].question = "¤Ã";  //Initialize object variables 
-	           Consonant[2].answer = "¤Ã";  //Initialize object variables     
+	           Consonant[2].question = "ã…“";  //Initialize object variables 
+	           Consonant[2].answer = "ã…“";  //Initialize object variables     
 	            
-	           Consonant[3].question = "¤Å";  //Initialize object variables 
-	           Consonant[3].answer = "¤Å";  //Initialize object variables     
+	           Consonant[3].question = "ã…•";  //Initialize object variables 
+	           Consonant[3].answer = "ã…•";  //Initialize object variables     
 	            
-	           Consonant[4].question = "¤Ç";  //Initialize object variables 
-	           Consonant[4].answer = "¤Ç";  //Initialize object variables     
+	           Consonant[4].question = "ã…—";  //Initialize object variables 
+	           Consonant[4].answer = "ã…—";  //Initialize object variables     
 	            
-	           Consonant[5].question = "¤Ë";  //Initialize object variables 
-	           Consonant[5].answer = "¤Ë";  //Initialize object variables 
+	           Consonant[5].question = "ã…›";  //Initialize object variables 
+	           Consonant[5].answer = "ã…›";  //Initialize object variables 
 	            
-	           Consonant[6].question = "¤Ì";  //Initialize object variables 
-	           Consonant[6].answer = "¤Ì";  //Initialize object variables     
+	           Consonant[6].question = "ã…œ";  //Initialize object variables 
+	           Consonant[6].answer = "ã…œ";  //Initialize object variables     
 	            
-	           Consonant[7].question = "¤Ğ";  //Initialize object variables 
-	           Consonant[7].answer = "¤Ğ";  //Initialize object variables     
+	           Consonant[7].question = "ã… ";  //Initialize object variables 
+	           Consonant[7].answer = "ã… ";  //Initialize object variables     
 	            
-	           Consonant[8].question = "¤Ñ";  //Initialize object variables 
-	           Consonant[8].answer = "¤Ñ";  //Initialize object variables     
+	           Consonant[8].question = "ã…¡";  //Initialize object variables 
+	           Consonant[8].answer = "ã…¡";  //Initialize object variables     
 	            
-	           Consonant[9].question = "¤Ó";  //Initialize object variables 
-	           Consonant[9].answer = "¤Ó";  //Initialize object variables 
+	           Consonant[9].question = "ã…£";  //Initialize object variables 
+	           Consonant[9].answer = "ã…£";  //Initialize object variables 
 	          
-	           Consonant[10].question = "¤À";  //Initialize object variables 
-	           Consonant[10].answer = "¤À";  //Initialize object variables    
+	           Consonant[10].question = "ã…";  //Initialize object variables 
+	           Consonant[10].answer = "ã…";  //Initialize object variables    
 	           
-	           Consonant[11].question = "¤Â";  //Initialize object variables 
-	           Consonant[11].answer = "¤Â";  //Initialize object variables    
+	           Consonant[11].question = "ã…’";  //Initialize object variables 
+	           Consonant[11].answer = "ã…’";  //Initialize object variables    
 	           
-	           Consonant[12].question = "¤Ä";  //Initialize object variables 
-	           Consonant[12].answer = "¤Ä";  //Initialize object variables    
+	           Consonant[12].question = "ã…”";  //Initialize object variables 
+	           Consonant[12].answer = "ã…”";  //Initialize object variables    
 	           
-	           Consonant[13].question = "¤Æ";  //Initialize object variables 
-	           Consonant[13].answer = "¤Æ";  //Initialize object variables    
+	           Consonant[13].question = "ã…–";  //Initialize object variables 
+	           Consonant[13].answer = "ã…–";  //Initialize object variables    
 	           
-	           Consonant[14].question = "¤È";  //Initialize object variables 
-	           Consonant[14].answer = "¤È";  //Initialize object variables        
+	           Consonant[14].question = "ã…˜";  //Initialize object variables 
+	           Consonant[14].answer = "ã…˜";  //Initialize object variables        
 
-	           Consonant[15].question = "¤É";  //Initialize object variables 
-	           Consonant[15].answer = "¤É";  //Initialize object variables    
+	           Consonant[15].question = "ã…™";  //Initialize object variables 
+	           Consonant[15].answer = "ã…™";  //Initialize object variables    
 	           
-	           Consonant[16].question = "¤Ê";  //Initialize object variables 
-	           Consonant[16].answer = "¤Ê";  //Initialize object variables    
+	           Consonant[16].question = "ã…š";  //Initialize object variables 
+	           Consonant[16].answer = "ã…š";  //Initialize object variables    
 	           
-	           Consonant[17].question = "¤Í";  //Initialize object variables 
-	           Consonant[17].answer = "¤Í";  //Initialize object variables    
+	           Consonant[17].question = "ã…";  //Initialize object variables 
+	           Consonant[17].answer = "ã…";  //Initialize object variables    
 	           
-	           Consonant[18].question = "¤Î";  //Initialize object variables 
-	           Consonant[18].answer = "¤Î";  //Initialize object variables    
+	           Consonant[18].question = "ã…";  //Initialize object variables 
+	           Consonant[18].answer = "ã…";  //Initialize object variables    
 	           
-	           Consonant[19].question = "¤Ï";  //Initialize object variables 
-	           Consonant[19].answer = "¤Ï";  //Initialize object variables    
+	           Consonant[19].question = "ã…Ÿ";  //Initialize object variables 
+	           Consonant[19].answer = "ã…Ÿ";  //Initialize object variables    
 	           
-	           Consonant[20].question = "¤Ò";  //Initialize object variables 
-	           Consonant[20].answer = "¤Ò";  //Initialize object variables    
+	           Consonant[20].question = "ã…¢";  //Initialize object variables 
+	           Consonant[20].answer = "ã…¢";  //Initialize object variables    
 	          
 	       }
 	       public void Consonant_VowelList(){
 	           for(int i = 0; i < 40; i++){
-	              Consonant_Vowel[i] = new basic_practice((test)panel);//¿ÀºêÁ§Æ® 10°³ »ı¼º
+	              Consonant_Vowel[i] = new basic_practice((test)panel);//ì˜¤ë¸Œì íŠ¸ 10ê°œ ìƒì„±
 	              if(i < 19){
 	                 Consonant_Vowel[i] = Vowel[i];
 	              }
@@ -283,16 +285,16 @@ public class test extends JPanel {
 	        }
 
 	       public void Correct(){
-	          //¿©±â´Ù ¸Â´Â °É Ç¥½ÃÇÏ´Â ±×¸²À» ³ÖÀ»°ÅÀÓ
+	          //ì—¬ê¸°ë‹¤ ë§ëŠ” ê±¸ í‘œì‹œí•˜ëŠ” ê·¸ë¦¼ì„ ë„£ì„ê±°ì„
 	       }
 	       public void InCorrect(){
-	          //¿©±â´Ù ¸Â´Â °É Ç¥½ÃÇÏ´Â ±×¸²À» ³ÖÀ»°ÅÀÓ
+	          //ì—¬ê¸°ë‹¤ ë§ëŠ” ê±¸ í‘œì‹œí•˜ëŠ” ê·¸ë¦¼ì„ ë„£ì„ê±°ì„
 	       }
 	       public void Basic_askQuestion()//start of askQuestion 
-	       { //¿©±â¼­ ¼Õ ±×¸²ÀÌ ³ª¿À°í;
+	       { //ì—¬ê¸°ì„œ ì† ê·¸ë¦¼ì´ ë‚˜ì˜¤ê³ ;
 	           number=0;
 	           leapcont.addListener(leaplisten);
-	           if(what_category.equals("Vowel")){// ÀÌºĞÀº ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ 
+	           if(what_category.equals("Vowel")){// ì´ë¶„ì€ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨ 
 	        	   while(number<19){
 	        		   
 	        		   while(true)
@@ -314,10 +316,10 @@ public class test extends JPanel {
 	        		   }
 	               }
 	           }  //end of counter for loop 
-	           else if(what_category.equals("Consonant")){//ÀÌ ºÎºĞµµ ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ
-	              for (number = 0; number < 21; number++)  //start of counter for loop (¹®Á¦ ¼ıÀÚ Á¶Á¤)
+	           else if(what_category.equals("Consonant")){//ì´ ë¶€ë¶„ë„ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨
+	              for (number = 0; number < 21; number++)  //start of counter for loop (ë¬¸ì œ ìˆ«ì ì¡°ì •)
 	                {  
-	                  System.out.printf("%d. %s?%n", number + 1, Consonant[number].question);  //prints question(ÀÌ°É ±×¸²À¸·Î ÇÒÁö, ¾Æ´Ï¸é ¿öµå·Î ÇÒÁö) 
+	                  System.out.printf("%d. %s?%n", number + 1, Consonant[number].question);  //prints question(ì´ê±¸ ê·¸ë¦¼ìœ¼ë¡œ í• ì§€, ì•„ë‹ˆë©´ ì›Œë“œë¡œ í• ì§€) 
 	                    System.out.println("Please Write Your Answers:");
 
 	                    if (entered.compareTo(Consonant[number].answer)==0)  //checks the users input 
@@ -332,12 +334,12 @@ public class test extends JPanel {
 	                    }
 	                  }
 	              }
-	              else if(what_category.equals("Consonant_VowelList")){//ÀÌ ºÎºĞµµ ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ
+	              else if(what_category.equals("Consonant_VowelList")){//ì´ ë¶€ë¶„ë„ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨
 
-	                  for (number = 0; number < 40; number++)  //start of counter for loop (¹®Á¦ ¼ıÀÚ Á¶Á¤)
+	                  for (number = 0; number < 40; number++)  //start of counter for loop (ë¬¸ì œ ìˆ«ì ì¡°ì •)
 	                    {  
 
-	                        System.out.printf("%d. %s?%n", number + 1, Consonant_Vowel[number].question);  //prints question(ÀÌ°É ±×¸²À¸·Î ÇÒÁö, ¾Æ´Ï¸é ¿öµå·Î ÇÒÁö) 
+	                        System.out.printf("%d. %s?%n", number + 1, Consonant_Vowel[number].question);  //prints question(ì´ê±¸ ê·¸ë¦¼ìœ¼ë¡œ í• ì§€, ì•„ë‹ˆë©´ ì›Œë“œë¡œ í• ì§€) 
 	                        System.out.println("Please Write Your Answers:");  
 	                        entered = textField_2.getText();//read input 
 
